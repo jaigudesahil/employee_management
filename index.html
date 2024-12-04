@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-top">
+      <div class="logo">Employee Management</div>
+      <input type="text" id="search-bar" placeholder="Search employees..." />
+    </div>
+    <div class="header-nav">
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul class="menu hidden">
+          <li><a href="#" onclick="navigateTo('registration')">Employee Registration</a></li>
+          <li><a href="#" onclick="navigateTo('listing')">Employee Listing</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <!-- Main Content -->
+  <main id="content">
+    <!-- Content will be dynamically loaded here -->
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>© 2024 Sahil Jaigude</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+  
+</body>
+</html>
